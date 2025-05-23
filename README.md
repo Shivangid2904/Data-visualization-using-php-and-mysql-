@@ -10,9 +10,7 @@ HTML5 & CSS3
 XAMPP (Local Server Environment)
 
 #Folder Structure
-bash
-Copy
-Edit
+
 survey_app/
 ├── index.php         # Main UI & form handler
 ├── get_data.php      # AJAX endpoint to fetch chart data
@@ -28,15 +26,9 @@ Open phpMyAdmin (http://localhost/phpmyadmin)
 
 Create a new database called:
 
-sql
-Copy
-Edit
 survey_db
 Run this SQL to create the table:
 
-sql
-Copy
-Edit
 CREATE TABLE survey (
     id INT AUTO_INCREMENT PRIMARY KEY,
     language VARCHAR(255) NOT NULL
@@ -44,9 +36,6 @@ CREATE TABLE survey (
 3.  Set Up Project
 Copy the entire survey_app/ folder into your XAMPP htdocs/ directory:
 
-swift
-Copy
-Edit
 C:/xampp/htdocs/survey_app/
 4.  Start Server
 Open XAMPP Control Panel
